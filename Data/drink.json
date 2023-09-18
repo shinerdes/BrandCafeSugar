@@ -1,0 +1,294 @@
+[
+  {
+    "id" : 1,
+    "brand" : "starbucks",
+    "menu" : "아이스 아메리카노",
+    "menuImage" : "starbucks-Iced-Caffe-Americano",
+    "size" : "tall (355ML)",
+    "sugar" : 0,
+    "kcal" : 10
+  },
+  
+  {
+    "id" : 2,
+    "brand" : "starbucks",
+    "menu" : "아이스 카라멜 마키아또",
+    "menuImage" : "starbucks-Iced-Caramel-Macchiato",
+    "size" : "tall (355ML)",
+    "sugar" : 22,
+    "kcal" : 190
+  },
+  
+  {
+    "id" : 3,
+    "brand" : "starbucks",
+    "menu" : "아이스 카푸치노",
+    "menuImage" : "starbucks-Iced-Cappuccino",
+    "size" : "tall (355ML)",
+    "sugar" : 9,
+    "kcal" : 110
+  },
+  
+  
+  {
+    "id" : 4,
+    "brand" : "starbucks",
+    "menu" : "브라운 슈가 오트 쉐이큰 에스프레소",
+    "menuImage" : "starbucks-Iced-Brown-Sugar-Oat-Shaken-Espresso",
+    "size" : "tall (355ML)",
+    "sugar" : 20,
+    "kcal" : 135
+  },
+  {
+    "id" : 5,
+    "brand" : "starbucks",
+    "menu" : "아이스 스타벅스 돌체 라떼",
+    "menuImage" : "Iced-Starbucks-Dolce-Latte",
+    "size" : "tall (355ML)",
+    "sugar" : 35,
+    "kcal" : 230
+  },
+  {
+    "id" : 6,
+    "brand" : "starbucks",
+    "menu" : "아이스 바닐라 빈 라떼",
+    "menuImage" : "starbucks-Iced-Vanilla-Bean-Latte",
+    "size" : "tall (355ML)",
+    "sugar" : 20,
+    "kcal" : 155
+  },
+  
+  
+  
+  {
+    "id" : 7,
+    "brand" : "starbucks",
+    "menu" : "아이스 카페 라떼",
+    "menuImage" : "starbucks-Iced-Caffe-Latte",
+    "size" : "tall (355ML)",
+    "sugar" : 8,
+    "kcal" : 110
+  },
+  
+  {
+    "id" : 8,
+    "brand" : "starbucks",
+    "menu" : "아이스 카페 모카",
+    "menuImage" : "starbucks-Iced-Caffe-Mocha",
+    "size" : "tall (355ML)",
+    "sugar" : 21,
+    "kcal" : 250
+  },
+  
+  {
+    "id" : 9,
+    "brand" : "starbucks",
+    "menu" : "아이스 화이트 초콜릿 모카",
+    "menuImage" : "starbucks-Iced-White-Chocolate-Mocha",
+    "size" : "tall (355ML)",
+    "sugar" : 41,
+    "kcal" : 335
+  },
+  
+  {
+    "id" : 10,
+    "brand" : "starbucks",
+    "menu" : "바닐라 스타벅스 더블 샷",
+    "menuImage" : "Vanilla-Starbucks-Double-Shot",
+    "size" : "207ml (7 fl oz)",
+    "sugar" : 14,
+    "kcal" : 125
+  },
+  
+  
+  {
+    "id" : 11,
+    "brand" : "starbucks",
+    "menu" : "리저브 콜드 블루",
+    "menuImage" : "starbucks-Reserve-Cold-Brew",
+    "size" : "tall (355ML)",
+    "sugar" : 0,
+    "kcal" : 5
+  },
+  
+  
+  {
+    "id" : 12,
+    "brand" : "starbucks",
+    "menu" : "바닐라 크림 콜드 브루",
+    "menuImage" : "starbucks-Vanilla-Cream-Cold-Brew",
+    "size" : "tall (355ML)",
+    "sugar" : 11,
+    "kcal" : 125
+  },
+  
+  
+  
+
+  {
+    "id" : 13,
+    "brand" : "starbucks",
+    "menu" : "오트 콜드 브루",
+    "menuImage" : "starbucks-Oat-Cold-Brew",
+    "size" : "tall (355ML)",
+    "sugar" : 14,
+    "kcal" : 120
+  },
+  
+  
+  
+  {
+    "id" : 14,
+    "brand" : "twosome",
+    "menu" : "올-타임 콜드브루",
+    "menuImage" : "twosome-올타임-콜드브루",
+    "size" : "regular (414ML)",
+    "sugar" : 34,
+    "kcal" : 400
+  },
+  
+  {
+    "id" : 15,
+    "brand" : "twosome",
+    "menu" : "아이스 아인슈페너 2023",
+    "menuImage" : "twosome-아인슈페너-2023",
+    "size" : "regular (414ML)",
+    "sugar" : 15,
+    "kcal" : 285
+  },
+  {
+    "id" : 16,
+    "brand" : "twosome",
+    "menu" : "(1호점)신촌커피",
+    "menuImage" : "twosome-신촌커피",
+    "size" : "regular (414ML)",
+    "sugar" : 28,
+    "kcal" : 295
+  },
+  
+  {
+    "id" : 17,
+    "brand" : "twosome",
+    "menu" : "아이스 아메리카노",
+    "menuImage" : "twosome-아메리카노",
+    "size" : "regular (414ML)",
+    "sugar" : 0,
+    "kcal" : 15
+  },
+  
+  
+  {
+    "id" : 18,
+    "brand" : "twosome",
+    "menu" : "아이스 카페라떼",
+    "menuImage" : "twosome-카페라떼",
+    "size" : "regular (414ML)",
+    "sugar" : 7,
+    "kcal" : 120
+  },
+ 
+ 
+ 
+ 
+ {
+   "id" : 19,
+   "brand" : "twosome",
+   "menu" : "아이스 바닐라 라떼",
+   "menuImage" : "twosome-바닐라라떼",
+   "size" : "regular (414ML)",
+   "sugar" : 23,
+   "kcal" : 170
+ },
+ 
+ {
+   "id" : 20,
+   "brand" : "twosome",
+   "menu" : "아이스 카페모카",
+   "menuImage" : "twosome-카페모카",
+   "size" : "regular (414ML)",
+   "sugar" : 31,
+   "kcal" : 280
+ },
+  
+  
+  {
+    "id" : 21,
+    "brand" : "twosome",
+    "menu" : "아이스 카라멜 마키아또",
+    "menuImage" : "twosome-카라멜마끼야또",
+    "size" : "regular (414ML)",
+    "sugar" : 28,
+    "kcal" : 240
+  },
+   
+  
+  
+  {
+    "id" : 22,
+    "brand" : "twosome",
+    "menu" : "아이스 스페니쉬 연유 라떼",
+    "menuImage" : "twosome-스페니쉬-연유-라떼",
+    "size" : "regular (414ML)",
+    "sugar" : 47,
+    "kcal" : 350
+  },
+  
+  
+  {
+    "id" : 23,
+    "brand" : "twosome",
+    "menu" : "아이스크림 라떼",
+    "menuImage" : "twosome-아이스크림-라떼",
+    "size" : "regular (414ML)",
+    "sugar" : 13,
+    "kcal" : 190
+  },
+
+  
+  {
+    "id" : 24,
+    "brand" : "twosome",
+    "menu" : "아이스 달고나 라떼",
+    "menuImage" : "twosome-달고나라떼",
+    "size" : "regular (414ML)",
+    "sugar" : 39,
+    "kcal" : 255
+  },
+  
+  
+  {
+    "id" : 25,
+    "brand" : "twosome",
+    "menu" : "아이스 흑임자 라떼",
+    "menuImage" : "twosome-흑임자라떼",
+    "size" : "regular (414ML)",
+    "sugar" : 26,
+    "kcal" : 355
+
+  },
+  
+  
+  
+  
+  {
+    "id" : 26,
+    "brand" : "twosome",
+    "menu" : "콜드브루",
+    "menuImage" : "twosome-콜드브루",
+    "size" : "regular (414ML)",
+    "sugar" : 0,
+    "kcal" : 10
+
+  },
+  
+  {
+    "id" : 27,
+    "brand" : "twosome",
+    "menu" : "콜드브루 라떼",
+    "menuImage" : "twosome-아이스-콜드브루라떼",
+    "size" : "regular (414ML)",
+    "sugar" : 5,
+    "kcal" : 75
+
+  },
+]
