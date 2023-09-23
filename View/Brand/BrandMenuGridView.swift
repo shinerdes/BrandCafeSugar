@@ -34,9 +34,20 @@ struct BrandMenuGridView: View {
                 .multilineTextAlignment(.center)
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
                 .padding(.horizontal, 5)
+            
+            
+            HStack {
+                Image("sugar")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 30, height: 30)
+                Text("\(drinks.sugar) g")
+                
+            }
+                
           
         })
-        .frame(width: UIScreen.main.bounds.width, height: 225)
+        .frame(width: UIScreen.main.bounds.width, height: 275)
     }
 }
 

@@ -9,6 +9,17 @@ struct SugarMenuView: View {
     @State var showingPopup = false
     @State var showingInfoPopup = false
     @State var ind: Int = -1
+    @State var menuIndex: Int = 0
+    
+    
+    private let menus = ["Default", "Ascending", "descending"]
+    private let menusIcon = ["arrow.right.circle", "arrow.up.circle", "arrow.down.circle"]
+    
+    // none
+    //sorted(by: {$0.point >= $1.point})
+    
+    //sorted(by: {$1.point >= $0.point})
+    
     
     
     var body: some View {
@@ -34,6 +45,51 @@ struct SugarMenuView: View {
                 
                 Divider()
                 
+                HStack {
+                    
+                    Spacer()
+                    
+                    
+                    Menu{
+                        
+                        Section {
+                            Button(action: {
+                                menuIndex = 0
+                                
+                            }) {
+                                Label("Default", systemImage: "arrow.right.circle")
+                            }
+                            Button(action: {
+                                menuIndex = 1
+                            }) {
+                                Label("Ascending", systemImage: "arrow.up.circle")
+                            }
+                            Button(action: {
+                                menuIndex = 2
+                            }) {
+                                Label("descending", systemImage: "arrow.down.circle")
+                            }
+                            
+                            
+                            
+                        }
+                        
+                       
+                       
+        
+                    } label: {
+                        Label(menus[menuIndex], systemImage: menusIcon[menuIndex])
+                    }
+                    .padding(.trailing, 10)
+                    
+                
+                   
+                }
+                .frame(height: 50)
+                
+               
+                Divider()
+                
                 ScrollView(.vertical, showsIndicators: false, content: {
                     
                     LazyVGrid(columns: gridLayout, spacing: 10, content: {
@@ -41,51 +97,183 @@ struct SugarMenuView: View {
                         
                         switch sugarObservable.indexSugar {
                         case 0:
-                            ForEach(drinks.filter({ $0.sugar >= 0 && $0.sugar <= 10 })) { drink in
-                                SugarMenuGridView(drinks: drink)
-                                    .onTapGesture {
-
-                                        ind = drink.id - 1
-                                        if (ind != -1) {
-                                            self.showingPopup.toggle()
+                            
+                            if (menuIndex == 0) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 0 && $0.sugar <= 10 })) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
                                         }
-                                    }
+                                }
                             }
                             
-                        case 1:
-                            ForEach(drinks.filter({ $0.sugar >= 11 && $0.sugar <= 20 })) { drink in
-                                SugarMenuGridView(drinks: drink)
-                                    .onTapGesture {
-
-                                        ind = drink.id - 1
-                                        if (ind != -1) {
-                                            self.showingPopup.toggle()
+                            else if (menuIndex == 1) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 0 && $0.sugar <= 10 }).sorted(by: {$0.sugar <= $1.sugar})) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
                                         }
-                                    }
+                                }
+                            }
+                            
+                            else if (menuIndex == 2) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 0 && $0.sugar <= 10 }).sorted(by: {$0.sugar >= $1.sugar})) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
+                                        }
+                                }
+                            }
+                            
+                            
+                        case 1:
+                            
+                            //$0.sugar >= 11 && $0.sugar <= 20
+                            if (menuIndex == 0) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 11 && $0.sugar <= 20 })) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
+                                        }
+                                }
+                            }
+                            
+                            else if (menuIndex == 1) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 11 && $0.sugar <= 20 }).sorted(by: {$0.sugar <= $1.sugar})) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
+                                        }
+                                }
+                            }
+                            
+                            else if (menuIndex == 2) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 11 && $0.sugar <= 20 }).sorted(by: {$0.sugar >= $1.sugar})) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
+                                        }
+                                }
                             }
                             
                         case 2:
-                            ForEach(drinks.filter({ $0.sugar >= 21 && $0.sugar <= 30 })) { drink in
-                                SugarMenuGridView(drinks: drink)
-                                    .onTapGesture {
-
-                                        ind = drink.id - 1
-                                        if (ind != -1) {
-                                            self.showingPopup.toggle()
+                            
+                            //$0.sugar >= 21 && $0.sugar <= 30
+                            if (menuIndex == 0) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 21 && $0.sugar <= 30 })) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
                                         }
-                                    }
+                                }
+                            }
+                            
+                            else if (menuIndex == 1) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 21 && $0.sugar <= 30 }).sorted(by: {$0.sugar <= $1.sugar})) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
+                                        }
+                                }
+                            }
+                            
+                            else if (menuIndex == 2) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 21 && $0.sugar <= 30 }).sorted(by: {$0.sugar >= $1.sugar})) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
+                                        }
+                                }
                             }
                             
                         case 3:
-                            ForEach(drinks.filter({ $0.sugar >= 31})) { drink in
-                                SugarMenuGridView(drinks: drink)
-                                    .onTapGesture {
-
-                                        ind = drink.id - 1
-                                        if (ind != -1) {
-                                            self.showingPopup.toggle()
+                            
+                            // $0.sugar >= 31
+                            if (menuIndex == 0) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 31 })) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
                                         }
-                                    }
+                                }
+                            }
+                            
+                            else if (menuIndex == 1) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 31 }).sorted(by: {$0.sugar <= $1.sugar})) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
+                                        }
+                                }
+                            }
+                            
+                            else if (menuIndex == 2) {
+                                
+                                ForEach(drinks.filter({ $0.sugar >= 31 }).sorted(by: {$0.sugar >= $1.sugar})) { drink in
+                                    
+                                    SugarMenuGridView(drinks: drink)
+                                        .onTapGesture {
+                                            ind = drink.id - 1
+                                            if (ind != -1) {
+                                                self.showingPopup.toggle()
+                                            }
+                                        }
+                                }
                             }
                             
                         default:
@@ -104,7 +292,7 @@ struct SugarMenuView: View {
                 
                 
                 
-            }).ignoresSafeArea(.all, edges: .all)
+            }).ignoresSafeArea(.all, edges: .top)
 
             
         }

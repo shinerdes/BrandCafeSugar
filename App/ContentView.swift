@@ -7,6 +7,9 @@ struct ContentView: View {
     @EnvironmentObject var brandObservable: BrandOB
     @EnvironmentObject var sugarObservable: SugarOB
     
+    // 당류를 바로 볼 수 있게?
+    // ㅇ
+    
     var body: some View {
         
         
@@ -17,7 +20,7 @@ struct ContentView: View {
                         .padding(.horizontal, 15)
                         .padding(.bottom)
                         .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
-                        .background(Color.white)
+                        .background(Color("background"))
                         .shadow(color: Color.black.opacity(0.15), radius: 5, x: 0, y: 5)
      
                     ScrollView(.vertical, showsIndicators: false, content: {

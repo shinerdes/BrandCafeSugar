@@ -8,7 +8,7 @@ struct LogoView: View {
             Text("Brand".uppercased())
                 .font(.title3)
                 .fontWeight(.black)
-                .foregroundColor(.black)
+                .foregroundColor(Color("reverseBackground"))
             Image("sugar")
                 .resizable()
                 .scaledToFit()
@@ -16,7 +16,7 @@ struct LogoView: View {
             Text("Cafe".uppercased())
                 .font(.title3)
                 .fontWeight(.black)
-                .foregroundColor(.black)
+                .foregroundColor(Color("reverseBackground"))
         }
     }
 }
