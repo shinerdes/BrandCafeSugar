@@ -84,9 +84,6 @@ struct ContentView: View {
                             
                         }).padding(.trailing, 5)
                         
-                        
-                        
-                        
                     })
                 }
                 .ignoresSafeArea(.all, edges: .top)//: VSTACK

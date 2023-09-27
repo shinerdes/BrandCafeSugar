@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C414E1252AA9C73600E74178 /* SugarMenuGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E1242AA9C73600E74178 /* SugarMenuGridView.swift */; };
+		C414E1272AAB048F00E74178 /* SugarTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E1262AAB048F00E74178 /* SugarTitleView.swift */; };
+		C414E1292AAB077900E74178 /* BrandTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E1282AAB077900E74178 /* BrandTitleView.swift */; };
+		C414E12E2AAF1CD600E74178 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = C414E12D2AAF1CD600E74178 /* PopupView */; };
+		C43CB2BE2AA99431007BFAB8 /* SugarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CB2BD2AA99431007BFAB8 /* SugarMenuView.swift */; };
+		C43CB2C02AA996B7007BFAB8 /* SugarOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CB2BF2AA996B6007BFAB8 /* SugarOB.swift */; };
+		C43CB2C22AA99911007BFAB8 /* SugarNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CB2C12AA99911007BFAB8 /* SugarNavigationBarView.swift */; };
+		C47672842ABEC26200886839 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47672832ABEC26200886839 /* SearchView.swift */; };
+		C478A63E2AA3437100A67690 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A63D2AA3437100A67690 /* NavigationView.swift */; };
+		C478A6402AA347D100A67690 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A63F2AA347D100A67690 /* LogoView.swift */; };
+		C478A6432AA34D1C00A67690 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A6422AA34D1C00A67690 /* BrandItemView.swift */; };
+		C478A6482AA458F500A67690 /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A6472AA458F500A67690 /* BrandModel.swift */; };
+		C478A64C2AA45AE900A67690 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = C478A64B2AA45AE900A67690 /* brand.json */; };
+		C478A64E2AA4670000A67690 /* event.json in Resources */ = {isa = PBXBuildFile; fileRef = C478A64D2AA4670000A67690 /* event.json */; };
+		C478A6502AA4699200A67690 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A64F2AA4699200A67690 /* EventModel.swift */; };
+		C478A6532AA479B600A67690 /* EventItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A6522AA479B600A67690 /* EventItemView.swift */; };
+		C478A6562AA5B1BF00A67690 /* sugar.json in Resources */ = {isa = PBXBuildFile; fileRef = C478A6552AA5B1BF00A67690 /* sugar.json */; };
+		C478A6582AA5B3D700A67690 /* SugarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A6572AA5B3D700A67690 /* SugarModel.swift */; };
+		C478A65A2AA5C4E100A67690 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A6592AA5C4E100A67690 /* TitleView.swift */; };
+		C478A65C2AA5DBD000A67690 /* BrandMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A65B2AA5DBD000A67690 /* BrandMenuView.swift */; };
+		C478A65E2AA5DD3D00A67690 /* BrandOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A65D2AA5DD3D00A67690 /* BrandOB.swift */; };
+		C478A6602AA5E59B00A67690 /* BrandNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A65F2AA5E59B00A67690 /* BrandNavigationBarView.swift */; };
+		C478A6682AA7521F00A67690 /* BrandMenuGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A6672AA7521F00A67690 /* BrandMenuGridView.swift */; };
+		C4B68C132AA07FE900A84736 /* BrandCafeSugarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C122AA07FE900A84736 /* BrandCafeSugarApp.swift */; };
+		C4B68C152AA07FE900A84736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C142AA07FE900A84736 /* ContentView.swift */; };
+		C4B68C172AA07FEB00A84736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B68C162AA07FEB00A84736 /* Assets.xcassets */; };
+		C4B68C1A2AA07FEB00A84736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B68C192AA07FEB00A84736 /* Preview Assets.xcassets */; };
+		C4B68C252AA08E7300A84736 /* DrinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C242AA08E7300A84736 /* DrinkModel.swift */; };
+		C4B68C272AA094EC00A84736 /* drink.json in Resources */ = {isa = PBXBuildFile; fileRef = C4B68C262AA094EC00A84736 /* drink.json */; };
+		C4B68C2A2AA0968F00A84736 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C292AA0968F00A84736 /* Constant.swift */; };
+		C4B68C2D2AA0974700A84736 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C2C2AA0974700A84736 /* CodableBundleExtension.swift */; };
+		C4B68C2F2AA09BD800A84736 /* BrandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C2E2AA09BD800A84736 /* BrandView.swift */; };
+		C4B68C312AA09CAC00A84736 /* LowSugarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C302AA09CAC00A84736 /* LowSugarMenuView.swift */; };
+		C4B68C332AA09D3600A84736 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C322AA09D3600A84736 /* EventView.swift */; };
+		C4B68C352AA0A2F000A84736 /* SugarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C342AA0A2F000A84736 /* SugarView.swift */; };
+		C4C12BA82AB304CC004ABE3A /* SugarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C12BA72AB304CB004ABE3A /* SugarInfoView.swift */; };
+		C4F948F82AB04DE100B57925 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F948F72AB04DE100B57925 /* PopupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C414E1242AA9C73600E74178 /* SugarMenuGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarMenuGridView.swift; sourceTree = "<group>"; };
+		C414E1262AAB048F00E74178 /* SugarTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarTitleView.swift; sourceTree = "<group>"; };
+		C414E1282AAB077900E74178 /* BrandTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTitleView.swift; sourceTree = "<group>"; };
+		C43CB2BD2AA99431007BFAB8 /* SugarMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarMenuView.swift; sourceTree = "<group>"; };
+		C43CB2BF2AA996B6007BFAB8 /* SugarOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarOB.swift; sourceTree = "<group>"; };
+		C43CB2C12AA99911007BFAB8 /* SugarNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarNavigationBarView.swift; sourceTree = "<group>"; };
+		C47672832ABEC26200886839 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C478A63D2AA3437100A67690 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		C478A63F2AA347D100A67690 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		C478A6422AA34D1C00A67690 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		C478A6472AA458F500A67690 /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
+		C478A64B2AA45AE900A67690 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		C478A64D2AA4670000A67690 /* event.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = event.json; sourceTree = "<group>"; };
+		C478A64F2AA4699200A67690 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		C478A6522AA479B600A67690 /* EventItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventItemView.swift; sourceTree = "<group>"; };
+		C478A6552AA5B1BF00A67690 /* sugar.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sugar.json; sourceTree = "<group>"; };
+		C478A6572AA5B3D700A67690 /* SugarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarModel.swift; sourceTree = "<group>"; };
+		C478A6592AA5C4E100A67690 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		C478A65B2AA5DBD000A67690 /* BrandMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandMenuView.swift; sourceTree = "<group>"; };
+		C478A65D2AA5DD3D00A67690 /* BrandOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandOB.swift; sourceTree = "<group>"; };
+		C478A65F2AA5E59B00A67690 /* BrandNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandNavigationBarView.swift; sourceTree = "<group>"; };
+		C478A6672AA7521F00A67690 /* BrandMenuGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandMenuGridView.swift; sourceTree = "<group>"; };
+		C4B68C0F2AA07FE900A84736 /* BrandCafeSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrandCafeSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B68C122AA07FE900A84736 /* BrandCafeSugarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCafeSugarApp.swift; sourceTree = "<group>"; };
+		C4B68C142AA07FE900A84736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4B68C162AA07FEB00A84736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4B68C192AA07FEB00A84736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4B68C242AA08E7300A84736 /* DrinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkModel.swift; sourceTree = "<group>"; };
+		C4B68C262AA094EC00A84736 /* drink.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drink.json; sourceTree = "<group>"; };
+		C4B68C292AA0968F00A84736 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C4B68C2C2AA0974700A84736 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		C4B68C2E2AA09BD800A84736 /* BrandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandView.swift; sourceTree = "<group>"; };
+		C4B68C302AA09CAC00A84736 /* LowSugarMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowSugarMenuView.swift; sourceTree = "<group>"; };
+		C4B68C322AA09D3600A84736 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		C4B68C342AA0A2F000A84736 /* SugarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarView.swift; sourceTree = "<group>"; };
+		C4C12BA72AB304CB004ABE3A /* SugarInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarInfoView.swift; sourceTree = "<group>"; };
+		C4F948F72AB04DE100B57925 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4B68C0C2AA07FE900A84736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C414E12E2AAF1CD600E74178 /* PopupView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C43CB2BC2AA99355007BFAB8 /* Sugar */ = {
+			isa = PBXGroup;
+			children = (
+				C43CB2C12AA99911007BFAB8 /* SugarNavigationBarView.swift */,
+				C414E1242AA9C73600E74178 /* SugarMenuGridView.swift */,
+				C414E1262AAB048F00E74178 /* SugarTitleView.swift */,
+			);
+			path = Sugar;
+			sourceTree = "<group>";
+		};
+		C478A6412AA34CFA00A67690 /* Brand */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C2E2AA09BD800A84736 /* BrandView.swift */,
+				C478A6422AA34D1C00A67690 /* BrandItemView.swift */,
+				C478A65F2AA5E59B00A67690 /* BrandNavigationBarView.swift */,
+				C478A6672AA7521F00A67690 /* BrandMenuGridView.swift */,
+				C414E1282AAB077900E74178 /* BrandTitleView.swift */,
+			);
+			path = Brand;
+			sourceTree = "<group>";
+		};
+		C478A6512AA479A600A67690 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C322AA09D3600A84736 /* EventView.swift */,
+				C478A6522AA479B600A67690 /* EventItemView.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		C478A6542AA493A600A67690 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C302AA09CAC00A84736 /* LowSugarMenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		C4B68C062AA07FE900A84736 = {
+			isa = PBXGroup;
+			children = (
+				C4B68C112AA07FE900A84736 /* BrandCafeSugar */,
+				C4B68C102AA07FE900A84736 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4B68C102AA07FE900A84736 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C0F2AA07FE900A84736 /* BrandCafeSugar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4B68C112AA07FE900A84736 /* BrandCafeSugar */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C202AA0877B00A84736 /* App */,
+				C4B68C212AA0886300A84736 /* View */,
+				C4B68C2B2AA0973900A84736 /* Extension */,
+				C4B68C282AA095F700A84736 /* Utility */,
+				C4B68C232AA08D1200A84736 /* Model */,
+				C4B68C222AA08D0C00A84736 /* Data */,
+				C4B68C162AA07FEB00A84736 /* Assets.xcassets */,
+				C4B68C182AA07FEB00A84736 /* Preview Content */,
+			);
+			path = BrandCafeSugar;
+			sourceTree = "<group>";
+		};
+		C4B68C182AA07FEB00A84736 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C192AA07FEB00A84736 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4B68C202AA0877B00A84736 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C142AA07FE900A84736 /* ContentView.swift */,
+				C478A65B2AA5DBD000A67690 /* BrandMenuView.swift */,
+				C43CB2BD2AA99431007BFAB8 /* SugarMenuView.swift */,
+				C4B68C122AA07FE900A84736 /* BrandCafeSugarApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C4B68C212AA0886300A84736 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C43CB2BC2AA99355007BFAB8 /* Sugar */,
+				C478A6542AA493A600A67690 /* Menu */,
+				C478A6512AA479A600A67690 /* Event */,
+				C478A6412AA34CFA00A67690 /* Brand */,
+				C4B68C342AA0A2F000A84736 /* SugarView.swift */,
+				C478A63D2AA3437100A67690 /* NavigationView.swift */,
+				C478A6592AA5C4E100A67690 /* TitleView.swift */,
+				C478A63F2AA347D100A67690 /* LogoView.swift */,
+				C4F948F72AB04DE100B57925 /* PopupView.swift */,
+				C4C12BA72AB304CB004ABE3A /* SugarInfoView.swift */,
+				C47672832ABEC26200886839 /* SearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4B68C222AA08D0C00A84736 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C478A64B2AA45AE900A67690 /* brand.json */,
+				C4B68C262AA094EC00A84736 /* drink.json */,
+				C478A64D2AA4670000A67690 /* event.json */,
+				C478A6552AA5B1BF00A67690 /* sugar.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C4B68C232AA08D1200A84736 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C242AA08E7300A84736 /* DrinkModel.swift */,
+				C478A6472AA458F500A67690 /* BrandModel.swift */,
+				C478A64F2AA4699200A67690 /* EventModel.swift */,
+				C478A6572AA5B3D700A67690 /* SugarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4B68C282AA095F700A84736 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C292AA0968F00A84736 /* Constant.swift */,
+				C478A65D2AA5DD3D00A67690 /* BrandOB.swift */,
+				C43CB2BF2AA996B6007BFAB8 /* SugarOB.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C4B68C2B2AA0973900A84736 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4B68C2C2AA0974700A84736 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4B68C0E2AA07FE900A84736 /* BrandCafeSugar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4B68C1D2AA07FEB00A84736 /* Build configuration list for PBXNativeTarget "BrandCafeSugar" */;
+			buildPhases = (
+				C4B68C0B2AA07FE900A84736 /* Sources */,
+				C4B68C0C2AA07FE900A84736 /* Frameworks */,
+				C4B68C0D2AA07FE900A84736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrandCafeSugar;
+			packageProductDependencies = (
+				C414E12D2AAF1CD600E74178 /* PopupView */,
+			);
+			productName = BrandCafeSugar;
+			productReference = C4B68C0F2AA07FE900A84736 /* BrandCafeSugar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4B68C072AA07FE900A84736 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C4B68C0E2AA07FE900A84736 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = C4B68C0A2AA07FE900A84736 /* Build configuration list for PBXProject "BrandCafeSugar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4B68C062AA07FE900A84736;
+			packageReferences = (
+				C414E12C2AAF1CD600E74178 /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
+			productRefGroup = C4B68C102AA07FE900A84736 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4B68C0E2AA07FE900A84736 /* BrandCafeSugar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4B68C0D2AA07FE900A84736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C478A64E2AA4670000A67690 /* event.json in Resources */,
+				C478A64C2AA45AE900A67690 /* brand.json in Resources */,
+				C4B68C1A2AA07FEB00A84736 /* Preview Assets.xcassets in Resources */,
+				C4B68C172AA07FEB00A84736 /* Assets.xcassets in Resources */,
+				C478A6562AA5B1BF00A67690 /* sugar.json in Resources */,
+				C4B68C272AA094EC00A84736 /* drink.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4B68C0B2AA07FE900A84736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B68C312AA09CAC00A84736 /* LowSugarMenuView.swift in Sources */,
+				C478A6602AA5E59B00A67690 /* BrandNavigationBarView.swift in Sources */,
+				C4F948F82AB04DE100B57925 /* PopupView.swift in Sources */,
+				C4B68C152AA07FE900A84736 /* ContentView.swift in Sources */,
+				C478A6402AA347D100A67690 /* LogoView.swift in Sources */,
+				C478A6432AA34D1C00A67690 /* BrandItemView.swift in Sources */,
+				C478A6502AA4699200A67690 /* EventModel.swift in Sources */,
+				C414E1252AA9C73600E74178 /* SugarMenuGridView.swift in Sources */,
+				C478A63E2AA3437100A67690 /* NavigationView.swift in Sources */,
+				C4B68C252AA08E7300A84736 /* DrinkModel.swift in Sources */,
+				C47672842ABEC26200886839 /* SearchView.swift in Sources */,
+				C43CB2C22AA99911007BFAB8 /* SugarNavigationBarView.swift in Sources */,
+				C4B68C132AA07FE900A84736 /* BrandCafeSugarApp.swift in Sources */,
+				C4B68C2A2AA0968F00A84736 /* Constant.swift in Sources */,
+				C4B68C2F2AA09BD800A84736 /* BrandView.swift in Sources */,
+				C478A65E2AA5DD3D00A67690 /* BrandOB.swift in Sources */,
+				C4B68C352AA0A2F000A84736 /* SugarView.swift in Sources */,
+				C4B68C2D2AA0974700A84736 /* CodableBundleExtension.swift in Sources */,
+				C478A65A2AA5C4E100A67690 /* TitleView.swift in Sources */,
+				C43CB2BE2AA99431007BFAB8 /* SugarMenuView.swift in Sources */,
+				C414E1292AAB077900E74178 /* BrandTitleView.swift in Sources */,
+				C478A6532AA479B600A67690 /* EventItemView.swift in Sources */,
+				C478A6482AA458F500A67690 /* BrandModel.swift in Sources */,
+				C478A6582AA5B3D700A67690 /* SugarModel.swift in Sources */,
+				C478A6682AA7521F00A67690 /* BrandMenuGridView.swift in Sources */,
+				C43CB2C02AA996B7007BFAB8 /* SugarOB.swift in Sources */,
+				C4C12BA82AB304CC004ABE3A /* SugarInfoView.swift in Sources */,
+				C4B68C332AA09D3600A84736 /* EventView.swift in Sources */,
+				C414E1272AAB048F00E74178 /* SugarTitleView.swift in Sources */,
+				C478A65C2AA5DBD000A67690 /* BrandMenuView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4B68C1B2AA07FEB00A84736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4B68C1C2AA07FEB00A84736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4B68C1E2AA07FEB00A84736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrandCafeSugar/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4NG3TTR62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinerdes.BrandCafeSugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4B68C1F2AA07FEB00A84736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrandCafeSugar/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4NG3TTR62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shinerdes.BrandCafeSugar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4B68C0A2AA07FE900A84736 /* Build configuration list for PBXProject "BrandCafeSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B68C1B2AA07FEB00A84736 /* Debug */,
+				C4B68C1C2AA07FEB00A84736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4B68C1D2AA07FEB00A84736 /* Build configuration list for PBXNativeTarget "BrandCafeSugar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B68C1E2AA07FEB00A84736 /* Debug */,
+				C4B68C1F2AA07FEB00A84736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C414E12C2AAF1CD600E74178 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C414E12D2AAF1CD600E74178 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C414E12C2AAF1CD600E74178 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C4B68C072AA07FE900A84736 /* Project object */;
+}

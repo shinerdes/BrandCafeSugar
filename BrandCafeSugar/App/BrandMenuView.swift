@@ -20,9 +20,12 @@ struct BrandMenuView: View {
             
             VStack(spacing: 0, content: {
                 
+                
+                
                 BrandNavigationBarView()
                     .padding(.horizontal)
                     .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+                    
                 
                 Divider()
                 

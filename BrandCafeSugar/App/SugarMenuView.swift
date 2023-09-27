@@ -15,12 +15,7 @@ struct SugarMenuView: View {
     private let menus = ["Default", "Ascending", "descending"]
     private let menusIcon = ["arrow.right.circle", "arrow.up.circle", "arrow.down.circle"]
     
-    // none
-    //sorted(by: {$0.point >= $1.point})
-    
-    //sorted(by: {$1.point >= $0.point})
-    
-    
+
     
     var body: some View {
         

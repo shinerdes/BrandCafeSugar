@@ -1,9 +1,10 @@
 
+
 import SwiftUI
 
-struct SugarNavigationBarView: View {
+struct BrandNavigationBarView: View {
     
-    @EnvironmentObject var sugarObservable: SugarOB
+    @EnvironmentObject var brandObservable: BrandOB
     
     
     var body: some View {
@@ -11,27 +12,28 @@ struct SugarNavigationBarView: View {
             Button(action: {
                 withAnimation(.none) {
                     feedback.impactOccurred()
-                    sugarObservable.selectedSugar = nil
-                    sugarObservable.openSugarPage = false
-                    sugarObservable.indexSugar = 0
-
+                    brandObservable.selectedBrand = nil
+                    brandObservable.openBrandPage = false
+                    brandObservable.indexBrand = 0
+              
                 }
             }, label: {
                 Image(systemName: "chevron.left")
                     .font(.title)
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("reverseBackground"))
             })
             
             Spacer()
-    
+            
+         
         }
     }
 }
 
-struct SugarNavigationBarView_Previews: PreviewProvider {
+struct BrandDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        SugarNavigationBarView()
-            .environmentObject(SugarOB())
+        BrandNavigationBarView()
+            .environmentObject(BrandOB())
             .previewLayout(.sizeThatFits)
             .padding()
             .background(Color.gray)
