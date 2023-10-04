@@ -14,7 +14,6 @@
 		C43CB2BE2AA99431007BFAB8 /* SugarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CB2BD2AA99431007BFAB8 /* SugarMenuView.swift */; };
 		C43CB2C02AA996B7007BFAB8 /* SugarOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CB2BF2AA996B6007BFAB8 /* SugarOB.swift */; };
 		C43CB2C22AA99911007BFAB8 /* SugarNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CB2C12AA99911007BFAB8 /* SugarNavigationBarView.swift */; };
-		C47672842ABEC26200886839 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47672832ABEC26200886839 /* SearchView.swift */; };
 		C478A63E2AA3437100A67690 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A63D2AA3437100A67690 /* NavigationView.swift */; };
 		C478A6402AA347D100A67690 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A63F2AA347D100A67690 /* LogoView.swift */; };
 		C478A6432AA34D1C00A67690 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C478A6422AA34D1C00A67690 /* BrandItemView.swift */; };
@@ -43,6 +42,11 @@
 		C4B68C332AA09D3600A84736 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C322AA09D3600A84736 /* EventView.swift */; };
 		C4B68C352AA0A2F000A84736 /* SugarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B68C342AA0A2F000A84736 /* SugarView.swift */; };
 		C4C12BA82AB304CC004ABE3A /* SugarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C12BA72AB304CB004ABE3A /* SugarInfoView.swift */; };
+		C4CEFD332AC4189E003500DE /* SearchOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CEFD322AC4189E003500DE /* SearchOB.swift */; };
+		C4CEFD362AC42659003500DE /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CEFD352AC42659003500DE /* SearchView.swift */; };
+		C4CEFD392AC43966003500DE /* SearchNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CEFD382AC43966003500DE /* SearchNavigationBarView.swift */; };
+		C4CEFD3B2AC57216003500DE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CEFD3A2AC57216003500DE /* SearchBar.swift */; };
+		C4CEFD3D2ACACC69003500DE /* SearchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CEFD3C2ACACC69003500DE /* SearchRow.swift */; };
 		C4F948F82AB04DE100B57925 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F948F72AB04DE100B57925 /* PopupView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +57,6 @@
 		C43CB2BD2AA99431007BFAB8 /* SugarMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarMenuView.swift; sourceTree = "<group>"; };
 		C43CB2BF2AA996B6007BFAB8 /* SugarOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarOB.swift; sourceTree = "<group>"; };
 		C43CB2C12AA99911007BFAB8 /* SugarNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarNavigationBarView.swift; sourceTree = "<group>"; };
-		C47672832ABEC26200886839 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		C478A63D2AA3437100A67690 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		C478A63F2AA347D100A67690 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		C478A6422AA34D1C00A67690 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
@@ -83,6 +86,11 @@
 		C4B68C322AA09D3600A84736 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 		C4B68C342AA0A2F000A84736 /* SugarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarView.swift; sourceTree = "<group>"; };
 		C4C12BA72AB304CB004ABE3A /* SugarInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarInfoView.swift; sourceTree = "<group>"; };
+		C4CEFD322AC4189E003500DE /* SearchOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchOB.swift; sourceTree = "<group>"; };
+		C4CEFD352AC42659003500DE /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C4CEFD382AC43966003500DE /* SearchNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNavigationBarView.swift; sourceTree = "<group>"; };
+		C4CEFD3A2AC57216003500DE /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		C4CEFD3C2ACACC69003500DE /* SearchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRow.swift; sourceTree = "<group>"; };
 		C4F948F72AB04DE100B57925 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +190,7 @@
 				C4B68C142AA07FE900A84736 /* ContentView.swift */,
 				C478A65B2AA5DBD000A67690 /* BrandMenuView.swift */,
 				C43CB2BD2AA99431007BFAB8 /* SugarMenuView.swift */,
+				C4CEFD352AC42659003500DE /* SearchView.swift */,
 				C4B68C122AA07FE900A84736 /* BrandCafeSugarApp.swift */,
 			);
 			path = App;
@@ -190,6 +199,7 @@
 		C4B68C212AA0886300A84736 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C4CEFD372AC43954003500DE /* Search */,
 				C43CB2BC2AA99355007BFAB8 /* Sugar */,
 				C478A6542AA493A600A67690 /* Menu */,
 				C478A6512AA479A600A67690 /* Event */,
@@ -200,7 +210,6 @@
 				C478A63F2AA347D100A67690 /* LogoView.swift */,
 				C4F948F72AB04DE100B57925 /* PopupView.swift */,
 				C4C12BA72AB304CB004ABE3A /* SugarInfoView.swift */,
-				C47672832ABEC26200886839 /* SearchView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 				C4B68C292AA0968F00A84736 /* Constant.swift */,
 				C478A65D2AA5DD3D00A67690 /* BrandOB.swift */,
 				C43CB2BF2AA996B6007BFAB8 /* SugarOB.swift */,
+				C4CEFD322AC4189E003500DE /* SearchOB.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -243,6 +253,16 @@
 				C4B68C2C2AA0974700A84736 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		C4CEFD372AC43954003500DE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C4CEFD382AC43966003500DE /* SearchNavigationBarView.swift */,
+				C4CEFD3A2AC57216003500DE /* SearchBar.swift */,
+				C4CEFD3C2ACACC69003500DE /* SearchRow.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CEFD3D2ACACC69003500DE /* SearchRow.swift in Sources */,
 				C4B68C312AA09CAC00A84736 /* LowSugarMenuView.swift in Sources */,
 				C478A6602AA5E59B00A67690 /* BrandNavigationBarView.swift in Sources */,
 				C4F948F82AB04DE100B57925 /* PopupView.swift in Sources */,
@@ -335,17 +356,20 @@
 				C414E1252AA9C73600E74178 /* SugarMenuGridView.swift in Sources */,
 				C478A63E2AA3437100A67690 /* NavigationView.swift in Sources */,
 				C4B68C252AA08E7300A84736 /* DrinkModel.swift in Sources */,
-				C47672842ABEC26200886839 /* SearchView.swift in Sources */,
 				C43CB2C22AA99911007BFAB8 /* SugarNavigationBarView.swift in Sources */,
 				C4B68C132AA07FE900A84736 /* BrandCafeSugarApp.swift in Sources */,
 				C4B68C2A2AA0968F00A84736 /* Constant.swift in Sources */,
 				C4B68C2F2AA09BD800A84736 /* BrandView.swift in Sources */,
+				C4CEFD392AC43966003500DE /* SearchNavigationBarView.swift in Sources */,
 				C478A65E2AA5DD3D00A67690 /* BrandOB.swift in Sources */,
+				C4CEFD362AC42659003500DE /* SearchView.swift in Sources */,
 				C4B68C352AA0A2F000A84736 /* SugarView.swift in Sources */,
 				C4B68C2D2AA0974700A84736 /* CodableBundleExtension.swift in Sources */,
 				C478A65A2AA5C4E100A67690 /* TitleView.swift in Sources */,
+				C4CEFD3B2AC57216003500DE /* SearchBar.swift in Sources */,
 				C43CB2BE2AA99431007BFAB8 /* SugarMenuView.swift in Sources */,
 				C414E1292AAB077900E74178 /* BrandTitleView.swift in Sources */,
+				C4CEFD332AC4189E003500DE /* SearchOB.swift in Sources */,
 				C478A6532AA479B600A67690 /* EventItemView.swift in Sources */,
 				C478A6482AA458F500A67690 /* BrandModel.swift in Sources */,
 				C478A6582AA5B3D700A67690 /* SugarModel.swift in Sources */,

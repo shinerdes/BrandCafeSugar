@@ -6,26 +6,55 @@ struct ContentView: View {
     
     @EnvironmentObject var brandObservable: BrandOB
     @EnvironmentObject var sugarObservable: SugarOB
+    @EnvironmentObject var searchObservable: SearchOB
     
-    // 당류를 바로 볼 수 있게?
-    // ㅇ
     
+
     var body: some View {
         
         
-        if brandObservable.openBrandPage == false && brandObservable.selectedBrand == nil && sugarObservable.openSugarPage == false && sugarObservable.selectedSugar == nil {
+        if brandObservable.openBrandPage == false && brandObservable.selectedBrand == nil && sugarObservable.openSugarPage == false && sugarObservable.selectedSugar == nil &&
+            searchObservable.openSearchPage == false  {
             
-                VStack(spacing: 0) {
-                    NavigationView()
-                        .padding(.horizontal, 15)
-                        .padding(.bottom)
-                        .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
-                        .background(Color("background"))
-                        .shadow(color: Color.black.opacity(0.15), radius: 5, x: 0, y: 5)
-     
+            VStack(spacing: 0) {
+                
+//                NavigationView()
+                HStack {
+                    
+                    Button(action: {
+                     
+                    }, label: {
+                        Image(systemName: "magnifyingglass")
+                            .opacity(0)
+                            .font(.title)
+                            .foregroundColor(Color("background"))
+                    }) //: BUTTON
+                    
+                    Spacer()
+                    
+                    LogoView()
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        searchObservable.openSearchPage = true
+                    }, label: {
+                        Image(systemName: "magnifyingglass")
+                            .font(.title)
+                            .foregroundColor(Color("reverseBackground"))
+                    }) //: BUTTON
+                    
+                }
+                .padding(.horizontal, 15)
+                .padding(.bottom)
+                .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+                .background(Color("background"))
+                .shadow(color: Color.black.opacity(0.15), radius: 5, x: 0, y: 5)
+                    
+                    
                     ScrollView(.vertical, showsIndicators: false, content: {
                         
-               
+                        
                         TitleView(title: "Event")
                         
                         EventView()
@@ -94,6 +123,7 @@ struct ContentView: View {
                 && brandObservable.selectedBrand == nil
                 && sugarObservable.openSugarPage == true
                 && sugarObservable.selectedSugar != nil
+                && searchObservable.openSearchPage == false
         {
             SugarMenuView()
         }
@@ -102,9 +132,21 @@ struct ContentView: View {
                     && brandObservable.selectedBrand != nil
                     && sugarObservable.openSugarPage == false
                     && sugarObservable.selectedSugar == nil
+                    && searchObservable.openSearchPage == false
         {
             BrandMenuView()
         }
+        
+        if brandObservable.openBrandPage == false
+                    && brandObservable.selectedBrand == nil
+                    && sugarObservable.openSugarPage == false
+                    && sugarObservable.selectedSugar == nil
+                    && searchObservable.openSearchPage == true
+        {
+            SearchView()
+        }
+        
+        
       
         
     }
@@ -117,6 +159,7 @@ struct ContentView_Previews: PreviewProvider {
             .previewDevice("iPhone 14 Pro")
             .environmentObject(BrandOB())
             .environmentObject(SugarOB())
+            .environmentObject(SearchOB())
             .background(Color.white)
     }
 }

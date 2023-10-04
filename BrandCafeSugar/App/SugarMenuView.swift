@@ -272,7 +272,7 @@ struct SugarMenuView: View {
                             }
                             
                         default:
-                            Text("그럴일은 없다")
+                            Text("none")
                         }
                         
                         

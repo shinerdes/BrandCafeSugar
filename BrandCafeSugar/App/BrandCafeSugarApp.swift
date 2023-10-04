@@ -9,6 +9,7 @@ struct BrandCafeSugarApp: App {
             ContentView()
                 .environmentObject(BrandOB())
                 .environmentObject(SugarOB())
+                .environmentObject(SearchOB())
         }
     }
 }
